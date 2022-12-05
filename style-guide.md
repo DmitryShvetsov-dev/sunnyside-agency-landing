@@ -37,6 +37,8 @@ The designs were created to the following widths:
 - Weights: 600
 - Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
 - Weights: 700, 900
+  //font-family: 'Barlow', sans-serif;
+  //font-family: 'Fraunces', serif;
 
 ## Icons
 
