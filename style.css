@@ -6,8 +6,8 @@ header {
   height: 924px;
   background-image: url(./images/desktop/image-header.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position-y: -100px;
+  background-size: cover;
+  background-position: center bottom;
 }
 a {
   margin-left: 40px;
