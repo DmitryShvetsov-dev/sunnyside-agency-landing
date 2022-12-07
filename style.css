@@ -32,6 +32,21 @@ nav {
   flex-direction: column;
   align-items: center;
 }
+.box {
+  display: flex;
+}
+.left {
+  height: 100%;
+  width: 100%;
+}
+.right {
+  height: 100%;
+  width: 100%;
+}
+.content {
+  position: relative;
+  bottom: 300px;
+}
 #logoImg {
   height: 40px;
 }
@@ -54,4 +69,83 @@ nav {
   font-family: "Fraunces", serif;
   font-size: 90px;
   font-weight: 900;
+}
+#transformText {
+  margin-left: 300px;
+  margin-top: 220px;
+  margin-right: 200px;
+  margin-bottom: 0;
+  font-size: 50px;
+  font-family: "Fraunces", serif;
+}
+#transformLetter {
+  margin-left: 300px;
+  margin-right: 200px;
+  color: hsl(232, 10%, 55%);
+  font-family: "Barlow", sans-serif;
+  font-size: 22px;
+}
+#learnMore {
+  position: relative;
+  z-index: 2;
+  margin-left: 300px;
+  margin-bottom: 0;
+}
+#learnMoreYellowButton {
+  z-index: 1;
+  position: relative;
+  bottom: 12px;
+  margin-left: 290px;
+  width: 130px;
+  height: 10px;
+  background-color: hsl(51, 100%, 49%);
+  opacity: 0.5;
+  border: solid 0px;
+  border-radius: 20px;
+}
+#learnMoreYellowButton:hover {
+  opacity: 1;
+}
+#learnMoreRedButton {
+  z-index: 1;
+  position: relative;
+  bottom: 12px;
+  margin-left: 290px;
+  width: 130px;
+  height: 10px;
+  background-color: hsl(7, 99%, 70%);
+  opacity: 0.5;
+  border: solid 0px;
+  border-radius: 20px;
+}
+#learnMoreRedButton:hover {
+  opacity: 1;
+}
+#graphicHead {
+  color: hsl(167, 40%, 24%);
+  text-align: center;
+  font-family: "Fraunces", serif;
+  font-size: 50px;
+}
+#graphicText {
+  color: hsl(167, 40%, 24%);
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+#photoHead {
+  color: hsl(198, 62%, 26%);
+  text-align: center;
+  font-family: "Fraunces", serif;
+  font-size: 50px;
+}
+#photoText {
+  color: hsl(198, 62%, 26%);
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
