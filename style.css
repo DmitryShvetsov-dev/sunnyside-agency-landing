@@ -37,6 +37,11 @@ nav {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
 }
+.gridBox {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 60% 10% 30%;
+}
 .left {
   height: 100%;
   width: 100%;
@@ -123,31 +128,55 @@ nav {
 #learnMoreRedButton:hover {
   opacity: 1;
 }
-#graphicHead {
+#graphicDesingName {
   color: hsl(167, 40%, 24%);
-  text-align: center;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  justify-self: center;
   font-family: "Fraunces", serif;
   font-size: 50px;
 }
-#graphicText {
+#graphicDesignText {
   color: hsl(167, 40%, 24%);
   text-align: center;
+  align-self: center;
   font-family: "Barlow", sans-serif;
   font-size: 20px;
+  grid-column: 1/2;
+  grid-row: 3/4;
   margin-left: 200px;
   margin-right: 200px;
 }
-#photoHead {
+#photographyName {
   color: hsl(198, 62%, 26%);
-  text-align: center;
+  font-family: "Fraunces", serif;
+  font-size: 50px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  justify-self: center;
   font-family: "Fraunces", serif;
   font-size: 50px;
 }
-#photoText {
+#photographyText {
   color: hsl(198, 62%, 26%);
   text-align: center;
+  align-self: center;
   font-family: "Barlow", sans-serif;
   font-size: 20px;
+  grid-column: 2/3;
+  grid-row: 3/4;
   margin-left: 200px;
   margin-right: 200px;
+}
+#graphicBackground {
+  grid-column: 1/2;
+  grid-row: 1/4;
+  height: 100%;
+  width: 100%;
+}
+#photographyBackground {
+  grid-column: 2/3;
+  grid-row: 1/4;
+  height: 100%;
+  width: 100%;
 }
