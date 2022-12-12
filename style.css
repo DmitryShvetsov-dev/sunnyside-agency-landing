@@ -13,7 +13,7 @@ a {
   margin-left: 40px;
   text-decoration: none;
   font-family: "Barlow", sans-serif;
-  color: pink;
+  color: white;
   font-size: 20px;
 }
 nav {
@@ -142,6 +142,10 @@ svg:hover {
   border: 0px solid;
   border-radius: 30px;
 }
+#contactButton:hover {
+  background-color: hsl(192, 100%, 73%);
+  color: white;
+}
 #creativesText {
   color: white;
   text-align: center;
@@ -197,7 +201,7 @@ svg:hover {
 #learnMoreRedButton:hover {
   opacity: 1;
 }
-#graphicDesingName {
+#graphicDesignName {
   color: hsl(167, 40%, 24%);
   grid-column: 1/2;
   grid-row: 2/3;
@@ -219,7 +223,6 @@ svg:hover {
 #photographyName {
   color: hsl(198, 62%, 26%);
   font-family: "Fraunces", serif;
-  font-size: 50px;
   grid-column: 2/3;
   grid-row: 2/3;
   justify-self: center;
@@ -302,4 +305,117 @@ svg:hover {
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 100px;
+}
+#menuButton {
+  margin-right: 50px;
+  margin-top: 10px;
+  display: none;
+}
+@media (max-width: 1490px) {
+  #graphicDesignName {
+    font-size: 30px;
+  }
+  #graphicDesignText {
+    font-size: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  #photographyName {
+    font-size: 30px;
+  }
+  #photographyText {
+    font-size: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  #personSpeach {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .footerPictures {
+    height: 400px;
+  }
+}
+@media (max-width: 1000px) {
+  #graphicDesignText {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #photographyText {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #personSpeach {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #transformText {
+    font-size: 30px;
+  }
+  #transformLetter {
+    font-size: 18px;
+  }
+  .footerPictures {
+    height: 300px;
+  }
+}
+@media (max-width: 820px) {
+  nav > a {
+    display: none;
+  }
+  #contactButton {
+    display: none;
+  }
+  #menuButton {
+    display: block;
+  }
+  #graphicDesignName {
+    margin: 0;
+  }
+  #photographyName {
+    margin: 0;
+  }
+}
+@media (max-width: 700px) {
+  #creativesText {
+    margin-top: 50px;
+  }
+  header {
+    height: 600px;
+  }
+  #transformText {
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  #transformLetter {
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  #graphicDesignText {
+    margin: 0;
+    margin-top: 15px;
+  }
+  #photographyText {
+    margin: 0;
+    margin-top: 15px;
+  }
+  #personSpeach {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .footerPictures {
+    height: 200px;
+  }
+  footer {
+    height: 300px;
+  }
+  #footerName {
+    margin-top: 20px;
+  }
+  #footerLogo {
+    margin-top: 20px;
+  }
 }
