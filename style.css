@@ -419,3 +419,111 @@ svg:hover {
     margin-top: 20px;
   }
 }
+@media (max-width: 632px) {
+  .box {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .left {
+    grid-row: 2/3;
+  }
+  .right {
+    grid-row: 1/2;
+  }
+  .gridBox {
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 5% 15% 30% 5% 15%;
+  }
+  #graphicDesignName {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 50px;
+  }
+  #graphicDesignText {
+    font-size: 20px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  #photographyName {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    font-size: 50px;
+  }
+  #photographyText {
+    font-size: 20px;
+    grid-column: 1/2;
+    grid-row: 6/7;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  #graphicBackground {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    height: 100%;
+    width: 100%;
+  }
+  #photographyBackground {
+    grid-column: 1/2;
+    grid-row: 4/7;
+    height: 100%;
+    width: 100%;
+  }
+  .clientContent {
+    height: 1100px;
+  }
+  .persons {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerPictures {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    height: 100%;
+  }
+  .bottle {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .orange {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .iceCream {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .sugar {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+}
+@media (max-width: 530px) {
+  #creativesText {
+    font-size: 35px;
+  }
+  .arrow {
+    margin-top: 50px;
+  }
+  #graphicDesignName {
+    font-size: 30px;
+  }
+  #graphicDesignText {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 17px;
+  }
+  #photographyName {
+    font-size: 30px;
+  }
+  #photographyText {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 17px;
+  }
+  #footerLinks {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
