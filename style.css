@@ -45,6 +45,13 @@ svg:hover {
   flex-direction: column;
   align-items: center;
 }
+.arrow {
+  animation-name: arrow-animation;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
 .box {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -380,6 +387,7 @@ svg:hover {
 @media (max-width: 700px) {
   #creativesText {
     margin-top: 50px;
+    margin-bottom: 0;
   }
   header {
     height: 600px;
@@ -525,5 +533,14 @@ svg:hover {
   #footerLinks {
     margin-left: 10px;
     margin-right: 10px;
+  }
+}
+
+@keyframes arrow-animation {
+  0% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: 100px;
   }
 }
