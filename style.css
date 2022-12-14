@@ -508,8 +508,14 @@ svg:hover {
   }
 }
 @media (max-width: 530px) {
+  #logoImg {
+    height: 30px;
+  }
   #creativesText {
     font-size: 35px;
+  }
+  #menuButton {
+    margin-top: 5px;
   }
   .arrow {
     margin-top: 50px;
@@ -535,7 +541,43 @@ svg:hover {
     margin-right: 10px;
   }
 }
+@media (max-width: 400px) {
+  .logo {
+    margin-left: 5px;
+  }
+  #menuButton {
+    margin-right: 10px;
+  }
+  #graphicDesignName {
+    font-size: 25px;
+  }
 
+  #graphicDesignText {
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  #photographyName {
+    font-size: 25px;
+  }
+  #photographyText {
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  #clientTestimonialsHead {
+    font-size: 20px;
+    text-align: center;
+  }
+  #personName {
+    margin-top: 10px;
+  }
+  #footerName {
+    font-size: 40px;
+  }
+}
 @keyframes arrow-animation {
   0% {
     margin-top: 0;
