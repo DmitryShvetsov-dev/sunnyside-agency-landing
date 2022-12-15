@@ -14,6 +14,7 @@
     />
   </head>
   <body>
+    <script src="./script.js"></script>
     <header>
       <div class="flexNav">
         <div class="logo">
@@ -22,11 +23,20 @@
         <nav>
           <a href="">About</a><a href="">Services</a><a href="">Projects</a
           ><button id="contactButton">Contact</button>
-          <img src="./images/icon-hamburger.svg" alt="menu" id="menuButton" />
+          <img
+            src="./images/icon-hamburger.svg"
+            alt="menu"
+            id="menuButton"
+            onclick="menuButton()"
+          />
+          <div id="navigationBox">
+            <a href="">About</a><a href="">Services</a><a href="">Projects</a
+            ><button id="contactButtonNavigationBox">Contact</button>
+          </div>
         </nav>
       </div>
       <div class="welcomeText">
-        <p id="creativesText">WE ARE CREATIVES</p>
+        <p id="creativesText" onclick="clearMenu()">WE ARE CREATIVES</p>
         <div class="arrow">
           <img src="./images/icon-arrow-down.svg" alt="arrow" id="arrowImage" />
         </div>

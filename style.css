@@ -134,6 +134,16 @@ svg:hover {
   display: flex;
   justify-content: center;
 }
+#navigationBox {
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  position: absolute;
+  right: 80px;
+}
 #logoImg {
   height: 40px;
 }
@@ -152,6 +162,19 @@ svg:hover {
 #contactButton:hover {
   background-color: hsl(192, 100%, 73%);
   color: white;
+}
+#contactButtonNavigationBox {
+  font-family: "Fraunces", serif;
+  background-color: hsl(51, 100%, 49%);
+  color: black;
+  font-size: 20px;
+  height: 60px;
+  width: 150px;
+  border: 0px solid;
+  border-radius: 30px;
+}
+#contactButtonNavigationBox:hover {
+  background-color: hsl(51, 89%, 64%);
 }
 #creativesText {
   color: white;
@@ -370,6 +393,12 @@ svg:hover {
 @media (max-width: 820px) {
   nav > a {
     display: none;
+  }
+  a {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    color: hsl(210, 4%, 67%);
   }
   #contactButton {
     display: none;
